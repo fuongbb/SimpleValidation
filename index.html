@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Simple Validation</title>
+	<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="Validation.js"></script>
+	<script>
+	$(function() {
+		var email = 'fuongit@gmail.com';
+		if (Validation.email(email)) {
+			alert('Email matched');
+		} else {
+			alert('Email not matched');
+		}
+	});
+	</script>
+</head>
+<body>
+
+</body>
+</html>
